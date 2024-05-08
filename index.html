@@ -611,13 +611,12 @@
             <use href="./svg/save-icon.svg#save"></use>
           </svg>
           <p class="modal__text">Вставьте дискету,&nbsp;чтобы продолжить</p>
-          <button
-            type="button"
-            class="button modal__button shadow-style"
-            onclick="window['save'].close()"
-          >
-            <span class="button__text">ОК</span>
-          </button>
+
+          <form method="dialog" class="modal__form">
+            <button class="close-button button modal__button shadow-style">
+              <span class="button__text">ОК</span>
+            </button>
+          </form>
         </dialog>
       </section>
     </main>
