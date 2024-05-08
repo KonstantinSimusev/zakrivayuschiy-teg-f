@@ -325,6 +325,7 @@
 
 .text-style {
   text-transform: uppercase;
+  color: var(--second-accent-color);
 }
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
