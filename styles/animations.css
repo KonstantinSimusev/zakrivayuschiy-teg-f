@@ -37,11 +37,11 @@
 }
 
 .main-body {
-  transition: opacity .3s;
+  transition: opacity .3s linear;
 }
 
 .core {
-  transition: opacity .3s .03s;
+  transition: opacity .3s .03s linear;
 }
 
 .sparks {
@@ -58,11 +58,11 @@
 }
 
 .like-icon:hover .core {
-  transition: opacity .3s;
+  transition: opacity .3s linear;
 }
 
 .like-icon:hover .main-body {
-  transition: opacity .3s .05s;
+  transition: opacity .3s .05s linear;
 }
 
 .like-icon:active .core,
@@ -75,16 +75,16 @@
 
 .like-icon:active .core,
 .like-icon.is-liked .core {
-  transition: fill .3s;
+  transition: fill .3s linear;
 }
 
 .like-icon:active .main-body,
 .like-icon.is-liked .main-body {
-  transition: fill .3s .05s;
+  transition: fill .3s .05s linear;
 }
 
 .like-icon.is-liked .contour {
-  transition: fill .3s .06s;
+  transition: fill .3s .06s linear;
 }
 
 .like-icon.is-liked .heart {
