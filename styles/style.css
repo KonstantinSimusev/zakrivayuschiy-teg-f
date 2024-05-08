@@ -323,6 +323,10 @@
   padding-block: 10px;
 }
 
+.text-style {
+  text-transform: uppercase;
+}
+
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
 
 .theme-menu__button:focus,
