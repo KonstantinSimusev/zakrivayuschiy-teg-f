@@ -166,7 +166,7 @@
 }
 
 .filter-invert {
-  filter: invert(.8);
+  filter: invert(1);
 }
 
 .filter-sepia {
@@ -174,11 +174,11 @@
 }
 
 .filter-blur {
-  filter: blur(15px);
+  filter: blur(1px);
 }
 
 .filter-mix {
-  filter: hue-rotate(100deg) brightness(50%) opacity(.7) blur(2px);
+  filter: brightness(90%) opacity(.9) blur(1px);
 }
 
 .text-wrapper {
