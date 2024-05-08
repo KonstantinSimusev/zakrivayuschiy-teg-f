@@ -242,13 +242,6 @@
   transform: translate(-100%);
 }
 
-.blend-effect {
-  position: relative;
-  z-index: 2;
-  color: var(--second-accent-color);
-  mix-blend-mode: difference;
-}
-
 .button__text {
   position: relative;
   z-index: 2;
@@ -321,11 +314,6 @@
   grid-column: 1 / 3;
   border: 2px solid var(--accent-color);
   padding-block: 10px;
-}
-
-.text-style {
-  text-transform: uppercase;
-  color: var(--second-accent-color);
 }
 
 /* СОСТОЯНИЯ ЭЛЕМЕНТОВ */
