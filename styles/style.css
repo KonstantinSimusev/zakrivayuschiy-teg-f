@@ -153,7 +153,7 @@
   block-size: 100%;
 }
 
-.filter-grayscale {
+/* .filter-grayscale {
   filter: grayscale(.75);
 }
 
@@ -179,7 +179,7 @@
 
 .filter-mix {
   filter: brightness(90%) opacity(.9) blur(1px);
-}
+} */
 
 .text-wrapper {
   display: grid;
